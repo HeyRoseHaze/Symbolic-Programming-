@@ -6,6 +6,8 @@ This repository contains materials and assignments for the Symbolic Programming 
 
 ## 📃 Lab Topics
 
+## 📃 Lab Topics
+
 - **Lab 1** - Communication with the user, variables and basic types, operators.
 - **Lab 2** - Conditional statement, loops.
 - **Lab 3** - Iterative algorithms and number operations.

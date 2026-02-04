@@ -9,4 +9,3 @@ current_year = time.year
 age = current_year - year_of_birth
 
 print(f"{name.title()}, you are {age} years old.")
-
