@@ -13,9 +13,11 @@ numbers_reverse.reverse()
 for a, b in zip(numbers, numbers_reverse):
     print(f'{a} {b}')
 
-# kolumna1 = [1, 2, 3, 4]
-# kolumna2 = [5, 6, 7, 8]
+# using range
 
-# for a, b in zip(kolumna1, kolumna2):
+limit = int(input('Enter limit: '))
 
-#     print(f"{a:<5} {b:<5}")
+for i in range(limit):
+    print(i,   (limit-1) - i)
+    #print(f"{i} {limit -1}")
+
