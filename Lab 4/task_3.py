@@ -1,13 +1,12 @@
 
 def wavelength(n):
-    n2 = [n + 1, n + 2, n + 3]
-
-    for n2 in n2:
+    print(f'\nThe wavelenght for n1 = {n} is equal to:')
+    for n2 in range(n + 1, n + 4):
         wavelenght = (rydberg * (1 / (n ** 2) - 1 / (n2 ** 2))) ** -1
-        print(f'The wavelenght for n1 = {n} is equal to:')
-        print(f'n = {n2} , lambda = {wavelenght:.3f} [nm]')
+        print(f'n2 = {n2} , lambda = {wavelenght:.3f} [nm]')
 
 
 rydberg = 0.0109747 
 
-wavelength(1)
+for n in range(1,5):
+    wavelength(n)
