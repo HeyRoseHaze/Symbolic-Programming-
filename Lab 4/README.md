@@ -19,9 +19,7 @@ Set the default value of **N** to 50.
 
 The spectral series of hydrogen are described by the following formula (https://pl.wikipedia.org/wiki/Serie_widmowe_wodoru):
 
-\[
-\frac{1}{\lambda} = R_{\infty} \left( \frac{1}{n_1^2} - \frac{1}{n_2^2} \right)
-\]
+$$\frac{1}{\lambda} = R_\infty \left( \frac{1}{n_1^2} - \frac{1}{n_2^2} \right)$$
 
 where:
 
