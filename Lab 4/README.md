@@ -28,18 +28,17 @@ where:
 - **R∞ ≈ 0.0109737 nm⁻¹** – Rydberg constant  
 
 Write a program that prints the wavelengths of several hydrogen spectral series, for example in the following form:
+```text
+Spectral lines for n1 = 1:
+n2 = 2 : lambda = 122 nm
+n2 = 3 : lambda = 103 nm
+n2 = 4 : lambda = 97 nm
 
-    ```text
-    Spectral lines for n1 = 1:
-    n2 = 2 : lambda = 122 nm
-    n2 = 3 : lambda = 103 nm
-    n2 = 4 : lambda = 97 nm
-
-    Spectral lines for n1 = 2:
-    n2 = 3 : lambda = 656 nm
-    n2 = 4 : lambda = 486 nm
-    n2 = 5 : lambda = 434 nm
-    ```
+Spectral lines for n1 = 2:
+n2 = 3 : lambda = 656 nm
+n2 = 4 : lambda = 486 nm
+n2 = 5 : lambda = 434 nm
+```
 
 ## Taks 4
 
